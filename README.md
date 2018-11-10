@@ -1,3 +1,5 @@
+This is the source for a demo application based on the React Front To Back udemy course.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
