@@ -63,7 +63,7 @@ class Contact extends Component {
     // const chip1 = "assets/head-shot.jpg";
     // const chip1 = "https://avatars1.githubusercontent.com/u/215643?s=400&v=4";
 
-    const chip_base_url = "https://avatars1.githubusercontent.com/u/21540";
+    const chip_base_url = "https://avatars1.githubusercontent.com/u/2160";
     let chip1 = chip_base_url + id + "?s=400&v=1";
     return (
       <Consumer>
