@@ -7,6 +7,7 @@ import EditContact from "./components/contacts/EditContact";
 import Header from "./components/layout/Header";
 
 import About from "./components/pages/About";
+import Asset from "./components/pages/Asset";
 import NotFound from "./components/pages/NotFound";
 
 import Test from "./components/tests/Test";
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route exact path="/contact/edit/:id" component={EditContact} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/test" component={Test} />
+                <Route exact path="/assets/:asset" component={Asset} />
                 <Route component={NotFound} />
               </Switch>
             </div>
